@@ -144,4 +144,7 @@ Vercel imposes a [time limitation](https://vercel.com/docs/concepts/limits/overv
 - **Avoid Excessive Requests:** Making too many requests in a short period may result in your IP being blocked by Instagram.
 - **Obtain Necessary Permissions:** Ensure you have the right to use and repurpose the Instagram content you scrape.
 
----
+
+**Disclaimer:** Please use this tool responsibly and ensure compliance with Instagram's [Terms of Use](https://help.instagram.com/581066165581870). Excessive or inappropriate use may lead to account restrictions or legal consequences. Additionally, it is strongly recommended **not** to run this code from public serverless platforms like Vercel for production, as it may lead to temporary or permanent blocks by Instagram. Instead, consider running it on-premises using Docker or a similar setup to better control the environment and reduce the risk of IP blocks.
+
+--- 
