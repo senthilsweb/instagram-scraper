@@ -63,7 +63,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
         }
     }).then(res => res.json());
-
+    console.log(JSON.stringify(result));
     // Storing the number of posts retrieved and the total count of posts
     response.first = result.data.user.edge_owner_to_timeline_media.edges.length;
     response.total = result.data.user.edge_owner_to_timeline_media.count;
